@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/two.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+}
+
+.mainText {
+  gap: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+
+  h1 {
+    font-size: 200px;
+    color: white;
+    font-weight: 500;
+  }
+}
+
+h1:nth-child(2) {
+  font-style: italic;
+  font-size: 100px;
+  font-weight: 300;
+  transform: translateY(-23px);
+}
+
+.countries {
+  margin: 10px;
+  color: white;
+}
